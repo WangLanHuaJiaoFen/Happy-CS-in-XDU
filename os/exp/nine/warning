@@ -1,0 +1,6 @@
+sudo dmesg -c 清空缓存区
+make
+sudo insmod listporcess.ko num=5
+sudo dmesg
+
+sudo rmmod listprocess
